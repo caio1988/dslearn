@@ -32,3 +32,6 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png', 1, 1);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Finalizando o projeto', 3, 
 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png', 1, 2);
+
+INSERT INTO tb_enrollment (user_Id, offer_Id, enroll_Moment, refound_Moment, available, only_Update) VALUES (1, 1, '2021-07-14T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment (user_Id, offer_Id, enroll_Moment, refound_Moment, available, only_Update) VALUES (2, 1, '2021-07-14T13:00:00Z', null, true, false);
